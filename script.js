@@ -35,7 +35,7 @@ async function converterMoeda() {
     }
 }
 
-// Adicionar evento de tecla Enter para converter
+
 document.getElementById('valor').addEventListener('keypress', function(e) {
     if (e.key === 'Enter') {
         converterMoeda();
